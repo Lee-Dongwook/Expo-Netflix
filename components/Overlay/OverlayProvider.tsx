@@ -2,7 +2,7 @@ import React, { useState, useCallback } from "react";
 import { StyleSheet, View } from "react-native";
 import { OverlayContext, OverlayView } from "./OverlayContext";
 
-export const OverlayProivder = ({
+export const OverlayProvider = ({
   children,
 }: {
   children: React.ReactNode;
